@@ -10,9 +10,10 @@ class Profile extends Model
     use HasFactory;
 
     protected $fillable = [
-        'nim',
         'nama',
-        'email',
+        'nim',
         'prodi',
+        'email',
+        'avatar',
     ];
 }

@@ -14,10 +14,10 @@ class ProfileTableSeeder extends Seeder
     public function run(): void
     {
         DB::table('profiles')->insert([
-            'nim' => 'D122311004',
-            'nama' => 'Reihan Salwa Fadhila Irawan',
-            'email' => 'salwaforster@gmail.com',
+            'nama' => 'Nisa Nurliah',
+            'nim' => 'D122311003',
             'prodi' => 'AJ-RMIK',
+            'email' => 'adnis1002@gmail.com'
         ]);
     }
 }
